@@ -1,0 +1,173 @@
+#hero {
+    color: #ffffff;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/hero.jpg') center/cover no-repeat;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.82);
+    z-index: 1;
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 15px;
+}
+
+#hero .form-container {
+    background: #1a1a1a;
+    padding: 30px 25px;
+    border-radius: 20px;
+    max-width: 420px;
+    width: 100%;
+    margin: 20px;
+}
+
+#hero .form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#hero .form-row {
+    display: flex;
+    gap: 10px;
+}
+
+#hero .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#hero .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+#hero .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+#hero button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#hero button[type="submit"]:hover {
+    background: #333;
+}
+
+#hero .disclaimer {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-top: 15px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.intl-tel-input {
+    width: 100% !important;
+}
+
+.iti {
+    width: 100% !important;
+}
+
+.iti--separate-dial-code .iti__flag-container {
+    border-radius: 4px 0 0 4px;
+}
+
+.iti--separate-dial-code input.iti__input {
+    border-radius: 0 4px 4px 0;
+}
+
+.iti__flag-container {
+    background: #2b2b2b;
+}
+
+.iti__selected-dial-code {
+    color: #fff;
+}
+
+.iti__country-list {
+    background-color: #fff !important;
+    color: #000 !important;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.iti__country-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.iti__country-list::-webkit-scrollbar-track {
+    background: #f5f5f5;
+}
+
+.iti__country-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    #hero .hero-content,
+    #hero .form-container {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    #hero .form-row {
+        flex-direction: column;
+    }
+}

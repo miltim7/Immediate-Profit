@@ -1,0 +1,52 @@
+1. Блок Header: 
+- Cлева лого: h-s-2-immediateedge-en.web.app, но с названием "Immediate Profit"
+- Справа кнопка призыв заполнить форму "Start investing now"
+
+
+2. Блок Hero:
+
+Слева:
+Immediate Profit 
+Join the Immediat Profit trading community & get a personal crypto trading account manager! 
+
+Smart Crypto Investing Made Easy: Your Personal Trading Manager Guides You to Profitable Trades
+
+Smart Crypto Investing: Don't navigate the complex world of cryptocurrency alone. Let our experienced trading managers guide you towards success with personalised strategies and expert support.
+
+- Ниже динамический счетчик с оставшимися местами, пример «Осталось 47 мест» яркий заметный текст в рамке, при повторном заходе цифра меняется в меньшую сторону
+
+Справа форма как из https://immediateprofit.co
+
+
+3. Блок "Бегущая строка":
+- копия из https://h-s-2-immediateedge-en.web.app
+
+
+4. Блок "What is Immediate Profit?":
+What is Immediate Profit? (заголовок)
+
+Immediate Profit trades cryptocurrency and forex markets using algorithmic trading software and blockchain technology. It is an automated trading system, which means this trading system generates Profit on behalf of its user. Thanks to delivering a whopping 99% win rate, other automated trading bots can deliver the impressive result you get with Immediate Profit. 
+
+If youre looking for a tool that gives you an edge while allowing you to make consistent passive income, youll not be disappointed to give the Immediate Profit software a try.
+
+- подобрать картинку
+
+
+5. Блок "Отзывы билл Гейтса и братьев Вонкласс"
+- копия из https://h-s-2-immediateedge-en.web.app
+
+
+6. Блок "Quick & Easy Sign-Up with Immediate Profit":
+Quick & Easy Sign-Up with Immediate Profit
+
+Don't waste valuable time on complicated registration processes. Immediate Profit offers a simple and fast way to start trading and investing. Just fill out a short form with your name, email, and a phone number. We'll handle the rest and connect you with a leading investment manager. Get started now!
+
+здесь так же должна быть кнопка призыв с заполнением формы. 
+
+
+7. Блок "Immediate Edge Bot uses Artificial Intelligence and State-of-the-art Algorithms to Identify Only Profitable Trades":
+- Immediate Edge Bot uses Artificial Intelligence and State-of-the-art Algorithms to Identify Only Profitable Trades
+- картинка из https://h-s-2-immediateedge-en.web.app
+
+
+8. Остальные с https://h-s-2-immediateedge-en.web.app
