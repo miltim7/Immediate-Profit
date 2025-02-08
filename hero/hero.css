@@ -52,6 +52,19 @@
     margin-bottom: 15px;
 }
 
+.remaining-counter {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     #hero .hero-content {
         max-width: 100%;

@@ -1,18 +1,13 @@
 :root {
-    --light-blue: #3A8DFF; /* Светло-синий */
-    --blue: #1B3D82;       /* Синий */
-    --orange: #FF8C42;     /* Оранжевый */
-    --light-green: #A3D9A5; /* Светло-зеленый */
-
-    /* Нейтральные цвета */
-    --white: #FFFFFF;      /* Белый */
-    --light-gray: #F5F7FA; /* Светло-серый */
-
-    /* Дополнительные */
-    --dark-gray: #333333;  /* Тёмно-серый для текста */
-    --border-color: #E0E0E0; /* Цвет бордюров */
+    --light-blue: #3A8DFF;
+    --blue: #1B3D82;
+    --orange: #FF8C42;
+    --light-green: #A3D9A5;
+    --white: #FFFFFF;
+    --light-gray: #F5F7FA;
+    --dark-gray: #333333;
+    --border-color: #E0E0E0;
 }
-
 
 * {
     margin: 0;
@@ -42,34 +37,88 @@ p {
 }
 
 @media (max-width: 1024px) {
+
     h1,
     h2 {
         font-size: 40px;
     }
-    
+
     p {
         font-size: 18px;
     }
 }
 
 @media (max-width: 768px) {
+
     h1,
     h2 {
         font-size: 32px;
     }
-    
+
     p {
         font-size: 16px;
     }
 }
 
 @media (max-width: 400px) {
+
     h1,
     h2 {
         font-size: 26px;
     }
-    
+
     p {
         font-size: 14px;
     }
+}
+
+.content {
+    padding: 20px;
+}
+
+.open-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+
+#chat-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    #chat-panel {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}
+
+#chat-panel.active {
+    transform: translateX(0);
+}
+
+#chat-panel iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
