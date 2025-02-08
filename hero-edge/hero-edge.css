@@ -1,0 +1,134 @@
+#hero-edge {
+    width: 100%;
+    background: url('../images/hero-edge/background.jpg') center/cover;
+}
+
+.hero-edge-bg {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.hero-edge-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-edge-logo img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.hero-edge-container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.free-access {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 7px;
+}
+
+.free-access p {
+    font-size: 18px;
+}
+
+.free-access span {
+    color: rgb(255, 96, 33);
+    font-weight: bold;
+}
+
+.trust-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.trust-logos img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.steps-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 340px;
+    max-width: 450px;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.step div {
+    display: flex;
+    flex-direction: column;
+}
+
+.step img {
+    width: 60px;
+}
+
+@media (max-width: 768px) {
+    .steps-div {
+        flex-direction: column;
+    }
+
+    .hero-edge-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero-edge-form {
+        max-width: 100%;
+    }
+
+    .form-group input {
+        font-size: 0.85rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+    }
+
+    .trust-logos {
+        margin-top: 30px;
+    }
+
+    #hero-edge #signup-form button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    #hero-edge #signup-form button {
+        font-size: 13px;
+    }
+}

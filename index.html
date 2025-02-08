@@ -13,6 +13,8 @@
 
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="form/form.css">
+
   <link rel="stylesheet" href="header/header.css">
   <link rel="stylesheet" href="hero/hero.css">
   <link rel="stylesheet" href="ticker/ticker.css">
@@ -20,13 +22,19 @@
   <link rel="stylesheet" href="reviews/reviews.css">
   <link rel="stylesheet" href="quick-easy/quick-easy.css">
   <link rel="stylesheet" href="edge-bot/edge-bot.css">
+  <link rel="stylesheet" href="claim/claim.css">
+  <link rel="stylesheet" href="testimonials/testimonials.css">
+  <link rel="stylesheet" href="facebook/facebook.css">
+  <link rel="stylesheet" href="hero-edge/hero-edge.css">
+  <link rel="stylesheet" href="footer/footer.css">
+  <link rel="stylesheet" href="modal-window/modal-window.css">
 </head>
 
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div>
       <img src="images/logo-removebg.png" alt="Logo">
-      <a href="#" class="cta-button">START INVESTING NOW</a>
+      <button class="cta-button open-modal-btn">START INVESTING NOW</button>
     </div>
   </header>
 
@@ -58,7 +66,7 @@
           </div>
           <div class="form-group">
             <label for="phone">Phone</label>
-            <input id="phone" type="tel" required>
+            <input class="phone" type="tel" required>
           </div>
           <button type="submit">Submit</button>
         </form>
@@ -144,7 +152,7 @@
         and fast way to start trading and investing. Just fill out a short form with your name, email,
         and a phone number. We'll handle the rest and connect you with a leading investment manager.
       </p>
-      <a href="#signup-form" class="quick-easy-cta">GET STARTED NOW!</a>
+      <button class="quick-easy-cta open-modal-btn">GET STARTED NOW!</button>
     </div>
   </section>
 
@@ -156,8 +164,335 @@
     </div>
   </section>
 
-  <script defer src="hero/hero.js"></script>
+  <section id="claim">
+    <button class="open-modal-btn"><img src="images/arrow.png"> Claim Your Spot Today <img src="images/arrow.png"></button>
+    <h2>Complete Beginners Are Making Immediate Earnings And Now With Our Help You Can Too</h2>
+    <p>The Immediate Edge Bot software is programmed to trade only when it knows it will make an immediate profit</p>
+  </section>
+
+  <section id="testimonials">
+    <div class="testimonials-container">
+      <div class="testimonial-card">
+        <img src="images/testimonials/testimonial1.jpg" alt="Jonathan Mulberry">
+        <h3>Jonathan Mulberry</h3>
+        <p>
+          I just want to say a great big Thank you because Immediate Edge Bot has really
+          turned my life around. In a matter of weeks, I've been able to quit my job!
+        </p>
+        <div class="amount">$ 5,977</div>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/testimonials/testimonial2.jpg" alt="Delilah Adams">
+        <h3>Delilah Adams</h3>
+        <p>
+          Man, this thing actually works! It’s amazing really. I’ve only used it for
+          a couple of weeks and I’ve already made more money from it than I do busting
+          my butt off at work for months!
+        </p>
+        <div class="amount">$ 11,369</div>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/testimonials/testimonial3.jpg" alt="Simon Horsham">
+        <h3>Simon Horsham</h3>
+        <p>
+          I received my notice two weeks ago. With no alternatives I thought my life
+          would be over. Now I'm making about $13,261.42 every week! And for the first
+          time in 2 months I'm not in the dark. Thanks Edwin!
+        </p>
+        <div class="amount">$ 33,426</div>
+      </div>
+
+      <div class="form-container">
+        <h2>OPEN YOUR ACCOUNT TODAY!</h2>
+        <form id="signup-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input id="first-name" type="text" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input id="last-name" type="text" placeholder="Last Name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input class="phone" type="tel" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <p class="disclaimer">
+          *By submitting you confirm that you’ve read and accepted the privacy policy and terms of conditions.<br>
+          **By submitting this form, I agree to receive all marketing material by email, SMS, and telephone.<br>
+          ***All trading carries risk.
+        </p>
+      </div>
+  </section>
+
+  <section id="facebook">
+    <div class="facebook-container">
+      <div class="fb-header">
+        <img src="images/facebook/facebook.png" alt="Facebook" class="fb-logo">
+      </div>
+      <div class="fb-date">05.02.2025</div>
+      <hr>
+
+      <div class="fb-post">
+        <div class="fb-user-image">
+          <img src="images/facebook/fb-user1.jpg" alt="Joanne Bowyer">
+        </div>
+        <div class="fb-post-content">
+          <h3>Joanne Bowyer</h3>
+          <div class="fb-stars">★★★★☆</div>
+          <p>
+            I have never traded before, but the Immediate Edge Bot makes it so easy.
+            I never thought I would say this since the crypto world can be so complicated...
+            but you do make it so easy to earn unimaginable amounts!
+          </p>
+          <div class="fb-actions">
+            <button class="open-modal-btn"><img src="images/facebook/like.png"> Like</button> &nbsp;
+            <button class="open-modal-btn"><img src="images/facebook/comment.png"> Comment</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="fb-post">
+        <div class="fb-user-image">
+          <img src="images/facebook/fb-user2.jpg" alt="Rudy Perkins">
+        </div>
+        <div class="fb-post-content">
+          <h3>Rudy Perkins</h3>
+          <div class="fb-stars">★★★★★</div>
+          <p>
+            This is exactly what I've been waiting for! Your educational support and
+            high profiting system has got me hooked for life! Thank you so much
+          </p>
+          <div class="fb-actions">
+            <button class="open-modal-btn"><img src="images/facebook/like.png"> Like</button> &nbsp;
+            <button class="open-modal-btn"><img src="images/facebook/comment.png"> Comment</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="fb-post">
+        <div class="fb-user-image">
+          <img src="images/facebook/fb-user3.jpg" alt="Clark Ross">
+        </div>
+        <div class="fb-post-content">
+          <h3>Clark Ross</h3>
+          <div class="fb-stars">★★★★☆</div>
+          <p>
+            On my first day, I’ve made over 900 Dollars so I can truly say...
+            Finally, I found something that delivers great results!
+          </p>
+          <div class="fb-actions">
+            <button class="open-modal-btn"><img src="images/facebook/like.png"> Like</button> &nbsp;
+            <button class="open-modal-btn"><img src="images/facebook/comment.png"> Comment</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="fb-post">
+        <div class="fb-user-image">
+          <img src="images/facebook/fb-user4.jpg" alt="Clark Ross">
+        </div>
+        <div class="fb-post-content">
+          <h3>Steven Shuler</h3>
+          <div class="fb-stars">★★★★★</div>
+          <p>
+            Money in my account from day one, still can't believe it… I love your system and support team is
+            outstanding!
+          </p>
+          <div class="fb-actions">
+            <button class="open-modal-btn"><img src="images/facebook/like.png"> Like</button> &nbsp;
+            <button class="open-modal-btn"><img src="images/facebook/comment.png"> Comment</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="fb-post">
+        <div class="fb-user-image">
+          <img src="images/facebook/fb-user5.jpg" alt="Clark Ross">
+        </div>
+        <div class="fb-post-content">
+          <h3>Seyhun Yildiz</h3>
+          <div class="fb-stars">★★★★☆</div>
+          <p>After one week, I made over 3000 dollars in total, this is amazing team!</p>
+          <div class="fb-actions">
+            <button class="open-modal-btn"><img src="images/facebook/like.png"> Like</button> &nbsp;
+            <button class="open-modal-btn"><img src="images/facebook/comment.png"> Comment</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="hero-edge">
+    <div class="hero-edge-bg">
+      <div class="hero-edge-container">
+        <div class="hero-edge-logo">
+          <img src="images/hero-edge/icon-blue.svg" alt="Logo">
+        </div>
+        <h1>Register Your Details To Gain An Immediate Edge Bot In The Crypto Market</h1>
+        <div class="steps-div">
+          <div class="form-container">
+            <h2>OPEN YOUR ACCOUNT TODAY!</h2>
+            <form id="signup-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input id="first-name" type="text" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input id="last-name" type="text" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input class="phone" type="tel" required>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+            <p class="disclaimer">
+              *By submitting you confirm that you’ve read and accepted the privacy policy and terms of conditions.<br>
+              **By submitting this form, I agree to receive all marketing material by email, SMS, and telephone.<br>
+              ***All trading carries risk.
+            </p>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <img src="images/hero-edge/step1.png">
+              <div>
+                <p>STEP 1</p>
+                <span>Wait for the messenger's call and confirm registration.</span>
+              </div>
+            </div>
+
+            <div class="step">
+              <img src="images/hero-edge/step2.png">
+              <div>
+                <p>STEP 2</p>
+                <span>Activate the trading account with the desired amount (from 250 euros).</span>
+              </div>
+            </div>
+
+            <div class="step">
+              <img src="images/hero-edge/step3.png">
+              <div>
+                <p>STEP 3</p>
+                <span>Start earning with the help of the automated trading system.</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="trust-logos">
+          <img src="images/hero-edge/symantec.png" alt="Symantec">
+          <img src="images/hero-edge/mcafee.png" alt="McAfee Secure">
+          <img src="images/hero-edge/verisign.png" alt="VeriSign">
+          <img src="images/hero-edge/ssl.png" alt="SSLTrust">
+          <img src="images/hero-edge/geotrust.png" alt="GeoTrust">
+          <img src="images/hero-edge/secure.svg" alt="Secure">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer-edge">
+    <div class="footer-edge-container">
+      <div class="footer-edge-top">
+        <div class="footer-edge-logo">
+          <img src="images/logo-removebg.png">
+          <p>It’s Easy When You Know How</p>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-edge-disclaimer">
+        <p>
+          IMPORTANT: Earnings and Legal Disclaimers Earnings and income representations made by h-s-2-immediateedg<span
+            style="display:none;">_dummy_text</span>e-en.web.app, (collectively “This Website”) only used as
+          aspirational examples of your earnings potential. The success of those in the testimonials and other examples
+          are exceptional results and therefore are not intended as a guarantee that you or others will achieve the same
+          results. Individual results will vary and are entirely dependent on your use of
+          h-s-2-immediateedge-en.web.app. This Website is not responsible for your actions. You bear sole responsibility
+          for your actions and decisions when using products and services and therefore you should always exercise
+          caution and due diligence. You agree that this Website is not liable to you in any way for the results of
+          using our services. See our Website terms of use for our full disclaimer of liability and other restrictions.
+          Trading can generate notable benefits, however, it also involves the risk of partial/full loss of the invested
+          capital, therefore, you should consider whether you can afford to invest. ©2025
+        </p>
+        <p>
+          USA REGULATION NOTICE: Trading Forex, CFDs and Cryptocurrencies is not regulated within the United States.
+          Invest in Crypto is not supervised or regulated by any financial agencies nor US agencies. Any unregulated
+          trading activity by U.S. residents is considered unlawful. This Website does not accept customers located
+          within the United States or holding an American citizenship. This Website is not responsible for actions of
+          customers located within the United States or holding an American citizenship. Customers located within the
+          United States or holding an American citizenship bear sole responsibility for their actions and decisions when
+          using products and services of this Website. In any and all circumstances the choice to use the Website, the
+          Service and/or the Software is under full responsibility of User, who should comply with the current
+          legislation.
+        </p>
+      </div>
+      <p class="footer-edge-copy">
+        © 2025 All Rights Reserved - Immediate Edge Bot
+      </p>
+    </div>
+  </section>
+
+  <div id="signup-modal" class="modal">
+    <div class="form-container">
+      <h2>OPEN YOUR ACCOUNT TODAY!</h2>
+      <form id="signup-form">
+        <span class="close-button">&times;</span>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" placeholder="First Name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input class="phone" type="tel" required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <p class="disclaimer">
+        *By submitting you confirm that you’ve read and accepted the privacy policy and terms of conditions.<br>
+        **By submitting this form, I agree to receive all marketing material by email, SMS, and telephone.<br>
+        ***All trading carries risk.
+      </p>
+    </div>
+  </div>
+
   <script defer src="ticker/ticker.js"></script>
+  <script defer src="form/form.js"></script>
+  <script defer src="modal-window/modal-window.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </body>
 

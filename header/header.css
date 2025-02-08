@@ -22,7 +22,7 @@ header div img {
     height: 50px;
 }
 
-header div a {
+header div button {
     padding: 10px 30px;
     color: #fff;
     background-color: var(--blue);
@@ -31,9 +31,11 @@ header div a {
     font-weight: bold;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
+    border: none;
 }
 
-header div a:hover {
+header div button:hover {
     background-color: var(--light-blue);
     transition: .3s ease;
 }
@@ -43,7 +45,7 @@ header div a:hover {
         height: 40px;
     }
     
-    header div a {
+    header div button {
         padding: 8px 24px;
         border-radius: 30px;
         font-size: 14px;
@@ -59,7 +61,7 @@ header div a:hover {
         height: 30px;
     }
     
-    header div a {
+    header div button {
         padding: 8px 20px;
         border-radius: 25px;
         font-size: 12px;
@@ -75,10 +77,10 @@ header div a:hover {
         height: 30px;
     }
     
-    header div a {
+    header div button {
         padding: 6px 15px;
         border-radius: 20px;
-        font-size: 10px;
+        font-size: 10.4px !important;
     }
 
     header div {

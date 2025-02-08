@@ -24,11 +24,12 @@
     padding: 14px 28px;
     background: #1a1a1a;
     color: #fff;
-    border: 1px solid #333;
+    border: 1px solid #cdcdcd;
     border-radius: 4px;
     text-decoration: none;
     font-size: 1rem;
     transition: background 0.3s ease;
+    cursor: pointer;
 }
 
 .quick-easy-cta:hover {

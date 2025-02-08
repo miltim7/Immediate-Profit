@@ -1,0 +1,119 @@
+.form-container {
+    background: #1a1a1a;
+    padding: 30px 25px;
+    border-radius: 20px;
+    max-width: 420px;
+    width: 100%;
+    margin: 20px;
+}
+
+.form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background: #333;
+}
+
+.disclaimer {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-top: 15px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.intl-tel-input {
+    width: 100% !important;
+}
+
+.iti {
+    width: 100% !important;
+}
+
+.iti--separate-dial-code .iti__flag-container {
+    border-radius: 4px 0 0 4px;
+}
+
+.iti--separate-dial-code input.iti__input {
+    border-radius: 0 4px 4px 0;
+}
+
+.iti__flag-container {
+    background: #2b2b2b;
+}
+
+.iti__selected-dial-code {
+    color: #fff;
+}
+
+.iti__country-list {
+    background-color: #fff !important;
+    color: #000 !important;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.iti__country-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.iti__country-list::-webkit-scrollbar-track {
+    background: #f5f5f5;
+}
+
+.iti__country-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .form-row {
+        gap: 0 !important;
+        flex-direction: column;
+    }
+}

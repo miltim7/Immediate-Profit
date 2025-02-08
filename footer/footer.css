@@ -1,0 +1,91 @@
+#footer-edge {
+    background: #fff;
+    color: #444;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-edge-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-edge-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-edge-logo img {
+    height: 50px;
+}
+
+.footer-edge-title {
+    text-align: left;
+}
+
+.footer-edge-title h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    color: #444;
+}
+
+.footer-edge-title p {
+    margin: 5px 0 0 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.footer-edge-links {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.footer-edge-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-edge-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-edge-disclaimer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-edge-disclaimer p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.footer-edge-copy {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .footer-edge-top {
+        flex-direction: column;
+    }
+
+    .footer-edge-logo img {
+        margin-bottom: 10px;
+    }
+
+    .footer-edge-title {
+        text-align: center;
+    }
+}

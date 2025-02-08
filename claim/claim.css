@@ -1,0 +1,128 @@
+#claim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: -120px auto 0 auto;
+    padding: 0 20px;
+}
+
+#claim button {
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #7ed321;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+#claim button:hover {
+    background-color: var(--orange);
+    transition: .2s ease;
+}
+
+#claim button img {
+    width: 35px;
+}
+
+#claim button img:nth-child(2) {
+    transform: rotate(180deg);
+}
+
+#claim h2 {
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+#claim p {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+    #claim {
+        margin: -100px auto 0 auto;
+        padding: 0 20px;
+    }
+
+    #claim button {
+        font-size: 24px;
+        border-radius: 25px;
+        padding: 8px 30px;
+        gap: 40px;
+    }
+
+    #claim button img {
+        width: 25px;
+    }
+
+    #claim h2 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    #claim p {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #claim {
+        margin: -30px auto 0 auto;
+        padding: 0 10px;
+    }
+
+    #claim button {
+        font-size: 20px;
+        border-radius: 25px;
+        padding: 8px 25px;
+        gap: 20px;
+    }
+
+    #claim button img {
+        width: 20px;
+    }
+
+    #claim h2 {
+        font-size: 22px;
+    }
+
+    #claim p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    #claim {
+        margin: 0px auto 0 auto;
+        padding: 0 10px;
+    }
+
+    #claim button {
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 8px 15px;
+        gap: 10px;
+    }
+
+    #claim button img {
+        width: 15px;
+    }
+
+    #claim h2 {
+        font-size: 18px;
+    }
+
+    #claim p {
+        font-size: 12px;
+    }
+}

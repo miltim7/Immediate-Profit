@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>F1A05C6E-F546-4E85-AAB4-8F86D56E50C2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-32.0%" y="-32.0%" width="164.0%" height="164.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M24.9857718,49.9796002 C38.7872573,49.9796002 49.9755719,38.7912856 49.9755719,24.9898001 C49.9755719,11.1883146 38.7872573,0 24.9857718,0 C11.3363962,0 0.24290801,10.9430547 3.73156876e-05,24.5344341 C-0.00266925773,24.6858977 0.142532907,25.1353148 0.215813502,25.2080722 C4.15187722,29.1160319 8.08794093,33.0239916 12.0240046,36.9319514 L12.0240046,36.9319514 C12.3828242,37.2882089 12.9511186,37.3205618 13.3480521,37.0073291 L41.6725209,14.6556041 C41.8892963,14.4845398 42.2037026,14.521596 42.3747669,14.7383715 C42.5179769,14.9198495 42.5181035,15.1758424 42.3750731,15.3574619 C33.7651803,26.2902753 25.1552874,37.2230888 16.5453946,48.1559023 C16.4230002,48.3158314 16.4628855,48.4848773 16.5817017,48.531297 C19.2080517,49.4689621 22.0372788,49.9796002 24.9857718,49.9796002 Z" id="path-2"></path>
+        <linearGradient x1="78.6926913%" y1="3.04949278%" x2="60.6227352%" y2="87.2117898%" id="linearGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IE_home_xl_long_form" transform="translate(-451.000000, -3723.000000)">
+            <g id="Group-4" transform="translate(0.000000, 3214.000000)">
+                <g id="ic_IE_tag_3" filter="url(#filter-1)" transform="translate(456.000000, 511.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Oval-Copy-2" fill="#3696F5" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <polygon id="Rectangle" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.482986902" style="mix-blend-mode: overlay;" mask="url(#mask-3)" points="41.947464 15 42.4626111 15.2001397 32.9015926 51.673453 21.392979 51.673453 14.6813188 47.8178839"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
