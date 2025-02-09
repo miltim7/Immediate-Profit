@@ -6,10 +6,10 @@ header {
     background-color: var(--light-gray);
 }
 
-header div {
+header .header-container {
     max-width: 1200px;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,11 +18,11 @@ header div {
     gap: 10px;
 }
 
-header div img {
+header .header-container img {
     height: 50px;
 }
 
-header div button {
+header .header-container button {
     padding: 10px 30px;
     color: #fff;
     background-color: var(--blue);
@@ -35,55 +35,72 @@ header div button {
     border: none;
 }
 
-header div button:hover {
+header .header-container button:hover {
     background-color: var(--light-blue);
     transition: .3s ease;
 }
 
+header .header-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-remaining-counter {
+    background: #ff4500 !important;
+    border: 2px solid #ff4500 !important;
+}
+
 @media (max-width: 1024px) {
-    header div img {
+    header .header-container img {
         height: 40px;
     }
     
-    header div button {
+    header .header-container button {
         padding: 8px 24px;
         border-radius: 30px;
         font-size: 14px;
     }
 
-    header div {
+    header .header-container {
         padding: 10px 20px;
     }
 }
 
 @media (max-width: 768px) {
-    header div img {
+    header .header-container img {
         height: 30px;
     }
     
-    header div button {
+    header .header-container button {
         padding: 8px 20px;
         border-radius: 25px;
         font-size: 12px;
     }
 
-    header div {
+    header .header-container {
         padding: 15px;
+    }
+
+    .header-remaining-counter {
+        display: none;
     }
 }
 
 @media (max-width: 400px) {
-    header div img {
+    header .header-container img {
         height: 30px;
     }
     
-    header div button {
+    header .header-container button {
         padding: 6px 15px;
         border-radius: 20px;
         font-size: 10.4px !important;
     }
 
-    header div {
+    header .header-container {
         padding: 10px;
     }
 }

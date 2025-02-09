@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
         remainingPlaces--;
     }
     localStorage.setItem("remainingPlaces", remainingPlaces);
-    const counterBtn = document.querySelector(".remaining-counter");
-    if (counterBtn) {
-        counterBtn.innerText = "Осталось " + remainingPlaces + " мест";
-    }
+    const counterBtns = document.querySelectorAll(".remaining-counter");
+    counterBtns.forEach(btn => {
+        btn.innerText = remainingPlaces + " places left";
+    });
 });
